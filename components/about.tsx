@@ -1,4 +1,3 @@
-import { text } from "stream/consumers"
 import BlurIn from "./magicui/blur-in"
 import SparklesText from "@/components/magicui/sparkles-text"
 
