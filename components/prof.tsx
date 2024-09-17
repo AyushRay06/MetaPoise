@@ -36,7 +36,7 @@ export function LensDemo() {
               <p className="text-neutral-200 text-left  mt-4">
                 Welcome to Metapoise v1.0, our first Techno Alumni Meet! This
                 event celebrates our shared journey, achievements, and the
-                strong bonds within our academic family. It's a chance to
+                strong bonds within our academic family. It&apos;s a chance to
                 reconnect, inspire students, and explore new tech. Thanks to the
                 organizers, and I hope you enjoy the event filled with enriching
                 discussions and camaraderie!

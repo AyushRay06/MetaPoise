@@ -1,5 +1,4 @@
 "use client"
-import Image from "next/image"
 import React from "react"
 import { InfiniteMovingCards } from "./ui/infinite-moving-cards" // Assuming this is the updated component
 

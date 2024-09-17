@@ -1,7 +1,6 @@
 import React from "react"
 import { Spotlight } from "./ui/spotlight"
 import { FloatingDockDemo } from "./navbar"
-import { ModeToggle } from "./mode-toggle"
 import BlurIn from "./magicui/blur-in"
 
 export function SpotlightPreview() {

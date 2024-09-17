@@ -12,11 +12,7 @@ import {
   DropdownMenuTrigger,
 } from "@/components/ui/dropdown-menu"
 
-type ModeToggleProps = {
-  className?: string // Make className optional
-}
-
-export function ModeToggle({ className }: ModeToggleProps) {
+export function ModeToggle() {
   const { setTheme } = useTheme()
 
   return (
