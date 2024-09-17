@@ -146,7 +146,7 @@ function IconContainer({
     [20, 40, 20]
   )
 
-  let width = useSpring(widthTransform, {
+  const width = useSpring(widthTransform, {
     mass: 0.1,
     stiffness: 150,
     damping: 12,
@@ -157,7 +157,7 @@ function IconContainer({
     damping: 12,
   })
 
-  let widthIcon = useSpring(widthTransformIcon, {
+  const widthIcon = useSpring(widthTransformIcon, {
     mass: 0.1,
     stiffness: 150,
     damping: 12,
