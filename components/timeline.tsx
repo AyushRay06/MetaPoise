@@ -1,6 +1,7 @@
 import Image from "next/image"
 import React from "react"
 import { Timeline } from "@/components/ui/timeline"
+import { EventCoordinators } from "./event-coor"
 
 export function TimelineDemo() {
   const data = [
@@ -183,7 +184,14 @@ export function TimelineDemo() {
       title: "Workshop & Hackathon",
       content: (
         <div>
-          
+          <p className="text-neutral-400 text-sm md:text-lg font-mono">
+            Event Coordinators:
+          </p>
+          <div className="flex gap-x-2">
+            <EventCoordinators src="/team/ayush.jpeg" name="Ayush Kumar Ray" />
+            <EventCoordinators src="/team/raj.jpeg" name="Ayush Kumar Ray" />
+          </div>
+
           <p className=" dark:text-neutral-200 dark:lg:text-neutral-400 text-sm md:text-lg  pl-4 font-thin  lg:font-extrabold mb-4 lg:pl-0">
             The Coding Hackathon challenged participants to design a dynamic and
             userfriendly frontend website, testing their creativity and
@@ -228,6 +236,11 @@ export function TimelineDemo() {
       title: "E-Sports",
       content: (
         <div>
+          <p className="text-neutral-400 text-sm md:text-lg font-mono">
+            Event Coordinators:
+          </p>
+          <EventCoordinators src="/team/ayush.jpeg" name="Ayush Kumar Ray" />
+
           <p className=" dark:text-neutral-200 dark:lg:text-neutral-400 text-sm md:text-lg  pl-4 font-thin  lg:font-extrabold mb-4 lg:pl-0">
             The BGMI Gaming Competition brought together esports enthusiasts for
             an intense battle of strategy, teamwork, and quick reflexes.
@@ -273,6 +286,11 @@ export function TimelineDemo() {
       title: "IP & IT Workshop",
       content: (
         <div>
+          <p className="text-neutral-400 text-sm md:text-lg font-mono">
+            Event Coordinators:
+          </p>
+          <EventCoordinators src="/team/ayush.jpeg" name="Ayush Kumar Ray" />
+
           <p className=" dark:text-neutral-200 dark:lg:text-neutral-400 text-sm md:text-lg  pl-4 font-thin  lg:font-extrabold mb-4 lg:pl-0">
             This workshop delved into the fundamentals of IP, the processes of
             technology transfer, and how to leverage them for innovation and
@@ -302,6 +320,11 @@ export function TimelineDemo() {
       title: "Quiz",
       content: (
         <div>
+          <p className="text-neutral-400 text-sm md:text-lg font-mono">
+            Event Coordinators:
+          </p>
+          <EventCoordinators src="/team/ayush.jpeg" name="Ayush Kumar Ray" />
+
           <p className=" dark:text-neutral-200 dark:lg:text-neutral-400 text-sm md:text-lg  pl-4 font-thin  lg:font-extrabold mb-4 lg:pl-0">
             The Tech Quiz Competition challenged participants' expertise in
             various domains of technology, from programming to emerging
@@ -377,6 +400,11 @@ export function TimelineDemo() {
       title: "Startup Idea competition",
       content: (
         <div>
+          <p className="text-neutral-400 text-sm md:text-lg font-mono">
+            Event Coordinators:
+          </p>
+          <EventCoordinators src="/team/ayush.jpeg" name="Ayush Kumar Ray" />
+
           <p className=" dark:text-neutral-200 dark:lg:text-neutral-400 text-sm md:text-lg  pl-4 font-thin  lg:font-extrabold mb-4 lg:pl-0">
             The Startup Idea Competition encouraged aspiring entrepreneurs to
             present innovative business concepts, focusing on real-world
@@ -421,6 +449,11 @@ export function TimelineDemo() {
       title: `Entrepreneurship summit`,
       content: (
         <div>
+          <p className="text-neutral-400 text-sm md:text-lg font-mono">
+            Event Coordinators:
+          </p>
+          <EventCoordinators src="/team/ayush.jpeg" name="Ayush Kumar Ray" />
+
           <p className=" dark:text-neutral-200 dark:lg:text-neutral-400 text-sm md:text-lg  pl-4 font-thin  lg:font-extrabold mb-4 lg:pl-0">
             We joined for insightful panel discussions and keynote speeches from
             some of the leading minds in the industry. The summit covered topics

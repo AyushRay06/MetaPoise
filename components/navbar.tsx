@@ -2,14 +2,12 @@
 import React from "react"
 import { FloatingDock } from "@/components/ui/floating-dock"
 import {
+  IconBrandFacebook,
   IconBrandGithub,
-  IconBrandX,
-  IconExchange,
   IconHome,
-  IconNewSection,
-  IconTerminal2,
+  IconPhoto,
 } from "@tabler/icons-react"
-import Image from "next/image"
+import { InstagramLogoIcon } from "@radix-ui/react-icons"
 
 export function FloatingDockDemo() {
   const links = [
@@ -22,16 +20,23 @@ export function FloatingDockDemo() {
     },
 
     {
-      title: "Products",
+      title: "Instagram",
       icon: (
-        <IconTerminal2 className="h-full w-full text-neutral-500 dark:text-neutral-300" />
+        <InstagramLogoIcon className="h-full w-full text-neutral-500 dark:text-neutral-300" />
       ),
       href: "#",
     },
     {
-      title: "Components",
+      title: "Facebook",
       icon: (
-        <IconNewSection className="h-full w-full text-neutral-500 dark:text-neutral-300" />
+        <IconBrandFacebook className="h-full w-full text-neutral-500 dark:text-neutral-300" />
+      ),
+      href: "#",
+    },
+    {
+      title: "Photo Gallery",
+      icon: (
+        <IconPhoto className="h-full w-full text-neutral-500 dark:text-neutral-300" />
       ),
       href: "#",
     },
