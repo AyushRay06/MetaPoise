@@ -1,7 +1,6 @@
 import { About } from "@/components/about"
 import { AnimatedTooltipVolunteers } from "@/components/animated-tooltip"
 import { SpotlightPreview } from "@/components/hero"
-import SparklesText from "@/components/magicui/sparkles-text"
 import { OrganizingTeam } from "@/components/organizing-team"
 import { LensDemo } from "@/components/prof"
 import { InfiniteMovingCardsDemo } from "@/components/sponsors"

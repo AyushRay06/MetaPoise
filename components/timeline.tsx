@@ -294,7 +294,7 @@ export function TimelineDemo() {
           <p className=" dark:text-neutral-200 dark:lg:text-neutral-400 text-sm md:text-lg  pl-4 font-thin  lg:font-extrabold mb-4 lg:pl-0">
             This workshop delved into the fundamentals of IP, the processes of
             technology transfer, and how to leverage them for innovation and
-            commercialization. Whether you're a student, researcher, or
+            commercialization. Whether you&apos;re a student, researcher, or
             professional, it was a great opportunity to expand your knowledge!
           </p>
           <div className="grid grid-cols-2 gap-4">
@@ -326,7 +326,7 @@ export function TimelineDemo() {
           <EventCoordinators src="/team/ayush.jpeg" name="Ayush Kumar Ray" />
 
           <p className=" dark:text-neutral-200 dark:lg:text-neutral-400 text-sm md:text-lg  pl-4 font-thin  lg:font-extrabold mb-4 lg:pl-0">
-            The Tech Quiz Competition challenged participants' expertise in
+            The Tech Quiz Competition challenged participants expertise in
             various domains of technology, from programming to emerging
             innovations. It fostered critical thinking and teamwork, as teams
             competed to answer complex tech-related questions and secure the
