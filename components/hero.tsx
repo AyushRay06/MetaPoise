@@ -25,11 +25,12 @@ export function SpotlightPreview() {
           className="text-4xl md:text-8xl lg:text-9xl font-bold text-center bg-clip-text text-transparent bg-gradient-to-b from-neutral-50 to-neutral-400 bg-opacity-50"
         />
 
-        <p className="mt-4 font-normal text-base md:text-xl text-neutral-500 max-w-2xl text-center mx-auto">
-          A celebration of innovation, where cutting-edge technology meets
+        <BlurIn
+          className="mt-4 font-normal text-base md:text-xl text-neutral-500 max-w-2xl text-center mx-auto"
+          word="A celebration of innovation, where cutting-edge technology meets
           creativity, showcasing futuristic ideas, gadgets, and solutions that
-          shape tomorrow.
-        </p>
+          shape tomorrow."
+        />
       </div>
     </div>
   )

@@ -34,16 +34,18 @@ export const Timeline = ({ data }: { data: TimelineEntry[] }) => {
     >
       <div className="max-w-7xl mx-auto py-20 px-4 md:px-8 lg:px-10 ">
         <div className=" flex items-center justify-center">
-          <h2 className="text-lg md:text-4xl mb-4 text-black dark:text-white max-w-4xl">
-            Events organized
-          </h2>
+          <h1 className="pointer-events-none whitespace-pre-wrap bg-gradient-to-b from-black to-gray-300/80 bg-clip-text text-center text-2xl md:text-5xl lg:text-7xl font-semibold leading-none text-transparent dark:from-white dark:to-slate-900/10 my-16 md:my-20 lg:my-32">
+            Event Organised Under
+            <br /> Metapoise v1
+          </h1>
         </div>
         <div className="flex items-center justify-center">
-          <p className="text-neutral-700 dark:text-neutral-300 text-sm md:text-base max-w-3l">
+          <p className=" dark:text-neutral-200 dark:lg:text-neutral-400 text-sm md:text-lg  pl-4 font-thin lg:font-extrabold mb-4 lg:pl-0">
             Metapoise Version 1, held in September 2024, was a successful tech
             fest with diverse events, collaborations, and placement
             opportunities.
           </p>
+          
         </div>
       </div>
 
