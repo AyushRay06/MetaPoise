@@ -24,7 +24,7 @@ export function FloatingDockDemo() {
       icon: (
         <InstagramLogoIcon className="h-full w-full text-neutral-500 dark:text-neutral-300" />
       ),
-      href: "#",
+      href: "https://www.instagram.com/metapoise_official?igsh=MWFhYzF2aWhxcjI4cA==",
     },
     {
       title: "Facebook",
