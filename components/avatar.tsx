@@ -7,7 +7,7 @@ interface AvatarProps {
 export function AvatarDemo({ src }: AvatarProps) {
   return (
     <Avatar>
-      <AvatarImage src={src} alt="ER" />
+      <AvatarImage src={src} alt="Er" />
       <AvatarFallback>EC</AvatarFallback>
     </Avatar>
   )
