@@ -446,7 +446,7 @@ export function TimelineDemo() {
       ),
     },
     {
-      title: `Entrepreneurship summit`,
+      title: `Entrepreneur-ship summit`,
       content: (
         <div>
           <p className="text-neutral-400 text-sm md:text-lg font-mono">
