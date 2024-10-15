@@ -2,6 +2,7 @@ import Image from "next/image"
 import React from "react"
 import { Timeline } from "@/components/ui/timeline"
 import { EventCoordinators } from "./event-coor"
+import Link from "next/link"
 
 export function TimelineDemo() {
   const data = [
@@ -9,7 +10,7 @@ export function TimelineDemo() {
       title: "Inauguration Ceremony",
       content: (
         <div>
-          <p className=" dark:text-neutral-200 dark:lg:text-neutral-400 text-sm md:text-lg  pl-4 font-thin lg:font-extrabold mb-4 lg:pl-0">
+          <p className=" dark:text-neutral-200 dark:lg:text-neutral-200 text-sm md:text-lg  pl-4 font-thin lg:font-extrabold mb-4 lg:pl-0">
             The Inauguration of Metapoise 1.0 set the stage for two days of
             insightful events, with leaders and experts sharing their vision for
             the future. The session on Intellectual Property Rights (IPR)
@@ -54,7 +55,7 @@ export function TimelineDemo() {
       title: "Plantation Drive & Cycle rally",
       content: (
         <div>
-          <p className=" dark:text-neutral-200 dark:lg:text-neutral-400 text-sm md:text-lg  pl-4 font-thin  lg:font-extrabold mb-4 lg:pl-0">
+          <p className=" dark:text-neutral-200 dark:lg:text-neutral-200 text-sm md:text-lg  pl-4 font-thin  lg:font-extrabold mb-4 lg:pl-0">
             The Cycle Rally, a pre-event of Metapoise V1.0, promoted
             environmental awareness and community engagement among students.
             Participants rode through the city, spreading the spirit of
@@ -97,7 +98,7 @@ export function TimelineDemo() {
       title: "Open mic",
       content: (
         <div>
-          <p className=" dark:text-neutral-200 dark:lg:text-neutral-400 text-sm md:text-lg  pl-4 font-thin  lg:font-extrabold mb-4 lg:pl-0">
+          <p className=" dark:text-neutral-200 dark:lg:text-neutral-200 text-sm md:text-lg  pl-4 font-thin  lg:font-extrabold mb-4 lg:pl-0">
             The tranquil evening hours witnessed an enchanting open mic event
             hosted by Dept. of CSE as a prelude of the highly anticipated
             Metapoise V1.0.The event served as a vibrant showcase of talent,
@@ -140,7 +141,7 @@ export function TimelineDemo() {
       title: "Digital Conference",
       content: (
         <div>
-          <p className=" dark:text-neutral-200 dark:lg:text-neutral-400 text-sm md:text-lg  pl-4 font-thin  lg:font-extrabold mb-4 lg:pl-0">
+          <p className=" dark:text-neutral-200 dark:lg:text-neutral-200 text-sm md:text-lg  pl-4 font-thin  lg:font-extrabold mb-4 lg:pl-0">
             The Digital Transformation event highlighted the crucial need for
             Industry 4.0, focusing on how technological advancements are
             reshaping industries. It emphasized the importance of
@@ -184,15 +185,24 @@ export function TimelineDemo() {
       title: "Workshop & Hackathon",
       content: (
         <div>
-          <p className="text-neutral-400 text-sm md:text-lg font-mono">
+          <p className="text-neutral-200 text-sm md:text-lg font-mono">
             Event Coordinators:
           </p>
-          <div className="flex gap-x-2">
-            <EventCoordinators src="/team/ayush.jpeg" name="Ayush Kumar Ray" />
-            <EventCoordinators src="/team/raj.jpeg" name="Ayush Kumar Ray" />
+          <div className="flex gap-x-2 ">
+            <div>
+              <Link href="https://portfolio-website-nu-lyart.vercel.app/">
+                <EventCoordinators
+                  src="/team/ayush.jpeg"
+                  name="AYUSH KUMAR RAY"
+                />
+              </Link>
+            </div>
+            <div>
+              <EventCoordinators src="/team/d.jpeg" name="DIBYAJYOTI MUDOK" />
+            </div>
           </div>
 
-          <p className=" dark:text-neutral-200 dark:lg:text-neutral-400 text-sm md:text-lg  pl-4 font-thin  lg:font-extrabold mb-4 lg:pl-0">
+          <p className=" dark:text-neutral-200 dark:lg:text-neutral-200 text-sm md:text-lg  pl-4 font-thin  lg:font-extrabold mb-4 lg:pl-0">
             The Coding Hackathon challenged participants to design a dynamic and
             userfriendly frontend website, testing their creativity and
             technical skills. It provided a platform for developers to showcase
@@ -236,12 +246,12 @@ export function TimelineDemo() {
       title: "E-Sports",
       content: (
         <div>
-          <p className="text-neutral-400 text-sm md:text-lg font-mono">
+          <p className="text-neutral-200 text-sm md:text-lg font-mono">
             Event Coordinators:
           </p>
-          <EventCoordinators src="/team/ayush.jpeg" name="Ayush Kumar Ray" />
+          <EventCoordinators src="/team/ayush.jpeg" name="MD. NOOR ALI" />
 
-          <p className=" dark:text-neutral-200 dark:lg:text-neutral-400 text-sm md:text-lg  pl-4 font-thin  lg:font-extrabold mb-4 lg:pl-0">
+          <p className=" dark:text-neutral-200 dark:lg:text-neutral-200 text-sm md:text-lg  pl-4 font-thin  lg:font-extrabold mb-4 lg:pl-0">
             The BGMI Gaming Competition brought together esports enthusiasts for
             an intense battle of strategy, teamwork, and quick reflexes.
             Participants competed in a highenergy environment, showcasing their
@@ -286,12 +296,7 @@ export function TimelineDemo() {
       title: "IP & IT Workshop",
       content: (
         <div>
-          <p className="text-neutral-400 text-sm md:text-lg font-mono">
-            Event Coordinators:
-          </p>
-          <EventCoordinators src="/team/ayush.jpeg" name="Ayush Kumar Ray" />
-
-          <p className=" dark:text-neutral-200 dark:lg:text-neutral-400 text-sm md:text-lg  pl-4 font-thin  lg:font-extrabold mb-4 lg:pl-0">
+          <p className=" dark:text-neutral-200 dark:lg:text-neutral-200 text-sm md:text-lg  pl-4 font-thin  lg:font-extrabold mb-4 lg:pl-0">
             This workshop delved into the fundamentals of IP, the processes of
             technology transfer, and how to leverage them for innovation and
             commercialization. Whether you&apos;re a student, researcher, or
@@ -320,12 +325,15 @@ export function TimelineDemo() {
       title: "Quiz",
       content: (
         <div>
-          <p className="text-neutral-400 text-sm md:text-lg font-mono">
+          <p className="text-neutral-200 text-sm md:text-lg font-mono">
             Event Coordinators:
           </p>
-          <EventCoordinators src="/team/ayush.jpeg" name="Ayush Kumar Ray" />
+          <EventCoordinators
+            src="/team/ayush.jpeg"
+            name="HIROKJYOTI ADHIKARI"
+          />
 
-          <p className=" dark:text-neutral-200 dark:lg:text-neutral-400 text-sm md:text-lg  pl-4 font-thin  lg:font-extrabold mb-4 lg:pl-0">
+          <p className=" dark:text-neutral-200 dark:lg:text-neutral-200 text-sm md:text-lg  pl-4 font-thin  lg:font-extrabold mb-4 lg:pl-0">
             The Tech Quiz Competition challenged participants expertise in
             various domains of technology, from programming to emerging
             innovations. It fostered critical thinking and teamwork, as teams
@@ -369,7 +377,7 @@ export function TimelineDemo() {
       title: "Alumni Meet",
       content: (
         <div>
-          <p className=" dark:text-neutral-200 dark:lg:text-neutral-400 text-sm md:text-lg  pl-4 font-thin  lg:font-extrabold mb-4 lg:pl-0">
+          <p className=" dark:text-neutral-200 dark:lg:text-neutral-200 text-sm md:text-lg  pl-4 font-thin  lg:font-extrabold mb-4 lg:pl-0">
             The Alumni Meet at Metapoise 1.0 brought together graduates from
             2014 to 2024 for a day of networking and reflection, celebrating
             their achievements and contributions. It provided a platform for
@@ -400,12 +408,7 @@ export function TimelineDemo() {
       title: "Startup Idea competition",
       content: (
         <div>
-          <p className="text-neutral-400 text-sm md:text-lg font-mono">
-            Event Coordinators:
-          </p>
-          <EventCoordinators src="/team/ayush.jpeg" name="Ayush Kumar Ray" />
-
-          <p className=" dark:text-neutral-200 dark:lg:text-neutral-400 text-sm md:text-lg  pl-4 font-thin  lg:font-extrabold mb-4 lg:pl-0">
+          <p className=" dark:text-neutral-200 dark:lg:text-neutral-200 text-sm md:text-lg  pl-4 font-thin  lg:font-extrabold mb-4 lg:pl-0">
             The Startup Idea Competition encouraged aspiring entrepreneurs to
             present innovative business concepts, focusing on real-world
             solutions and market viability. It provided a platform for
@@ -449,12 +452,12 @@ export function TimelineDemo() {
       title: `Entrepreneurship summit`,
       content: (
         <div>
-          <p className="text-neutral-400 text-sm md:text-lg font-mono">
+          <p className="text-neutral-200 text-sm md:text-lg font-mono">
             Event Coordinators:
           </p>
-          <EventCoordinators src="/team/ayush.jpeg" name="Ayush Kumar Ray" />
+          <EventCoordinators src="/team/arz.jpeg" name="ARZAV SAIKIA" />
 
-          <p className=" dark:text-neutral-200 dark:lg:text-neutral-400 text-sm md:text-lg  pl-4 font-thin  lg:font-extrabold mb-4 lg:pl-0">
+          <p className=" dark:text-neutral-200 dark:lg:text-neutral-200 text-sm md:text-lg  pl-4 font-thin  lg:font-extrabold mb-4 lg:pl-0">
             We joined for insightful panel discussions and keynote speeches from
             some of the leading minds in the industry. The summit covered topics
             ranging from the latest trends in technology to the intricacies of
@@ -483,7 +486,7 @@ export function TimelineDemo() {
       title: "Cultural Event",
       content: (
         <div>
-          <p className=" dark:text-neutral-200 dark:lg:text-neutral-400 text-sm md:text-lg  pl-4 font-thin  lg:font-extrabold mb-4 lg:pl-0">
+          <p className=" dark:text-neutral-200 dark:lg:text-neutral-200 text-sm md:text-lg  pl-4 font-thin  lg:font-extrabold mb-4 lg:pl-0">
             Cultural Night at Metapoise 1.0 featured an array of vibrant music
             and dance performances, showcasing diverse talents and celebrating
             artistic expression. Kaushik Sir and Nomi Mam delivered inspiring
