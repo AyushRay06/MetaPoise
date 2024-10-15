@@ -48,11 +48,12 @@ export const Footer = () => {
           <motion.div
             className="flex "
             whileInView={{
-              scale: [1.1, 1.3, 1.1],
+              scale: [1.04, 1.09, 1.04, 1.01, 1.04],
             }}
             transition={{
               duration: 1,
               repeat: Infinity,
+              ease: "linear",
             }}
           >
             <Link href="https://portfolio-website-nu-lyart.vercel.app/">
