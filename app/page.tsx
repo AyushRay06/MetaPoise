@@ -27,7 +27,7 @@ export default function Home() {
         </h1>
       </div>
       <Collaboration />
-      <div className="max-w-[1000px] mx-auto my-40  px-4">
+      <div className="max-w-[1000px] mx-auto my-40  px-4 md:px-8">
         <h2 className="mb-8 md:mb-16 text-center text-5xl md:text-7xl lg:text-8xl font-semibold tracking-tighter bg-white bg-[radial-gradient(100%_100%_at_top_left,white,white,rgb(74,32,138))] text-transparent bg-clip-text">
           After Movie
         </h2>
