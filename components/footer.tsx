@@ -62,7 +62,7 @@ export const Footer = () => {
                 alt="developer"
                 width={40}
                 height={40}
-                className="rounded-full opacity-70 hover:opacity-100 ml-8"
+                className="rounded-full opacity-90 hover:opacity-100 ml-8"
               />
               <p className="text-xs hover:text-white text-white/70">
                 Developer | Connect

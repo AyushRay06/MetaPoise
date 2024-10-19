@@ -249,7 +249,7 @@ export function TimelineDemo() {
           <p className="text-neutral-200 text-sm md:text-lg font-mono">
             Event Coordinators:
           </p>
-          <EventCoordinators src="/team/ayush.jpeg" name="MD. NOOR ALI" />
+          <EventCoordinators src="/team/noor.jpeg" name="MD. NOOR ALI" />
 
           <p className=" dark:text-neutral-200 dark:lg:text-neutral-200 text-sm md:text-lg  pl-4 font-thin  lg:font-extrabold mb-4 lg:pl-0">
             The BGMI Gaming Competition brought together esports enthusiasts for
@@ -329,7 +329,7 @@ export function TimelineDemo() {
             Event Coordinators:
           </p>
           <EventCoordinators
-            src="/team/ayush.jpeg"
+            src="/team/hirok.jpeg"
             name="HIROKJYOTI ADHIKARI"
           />
 

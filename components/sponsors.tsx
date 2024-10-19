@@ -1,20 +1,30 @@
 "use client"
 import React from "react"
-import { InfiniteMovingCards } from "./ui/infinite-moving-cards" // Assuming this is the updated component
+import {
+  InfiniteMovingCards,
+  MajorInfiniteMovingCards,
+} from "./ui/infinite-moving-cards" // Assuming this is the updated component
 
-export function InfiniteMovingCardsDemo() {
+export function MinorSponsors() {
   return (
-    <div className="h-[40rem] rounded-md flex flex-col antialiased bg-white dark:bg-black dark:bg-grid-white/[0.05] items-center justify-center relative overflow-hidden">
+    <div className="h-[10rem] rounded-md flex flex-col antialiased bg-white dark:bg-black dark:bg-grid-white/[0.05] items-center justify-center relative overflow-hidden">
       <InfiniteMovingCards items={sponsorLogos} direction="left" speed="fast" />
+    </div>
+  )
+}
+export function MajorSponsors() {
+  return (
+    <div className="h-[20rem] rounded-md flex flex-col antialiased  dark:bg-black dark:bg-grid-white/[0.05] items-center justify-center relative overflow-hidden">
+      <MajorInfiniteMovingCards
+        items={MajorSponsorLogos}
+        direction="right"
+        speed="slow"
+      />
     </div>
   )
 }
 
 const sponsorLogos = [
-  {
-    imageUrl: "/sponsors/s1.jpeg",
-    altText: "Sponsor 1",
-  },
   {
     imageUrl: "/sponsors/s2.jpeg",
     altText: "Sponsor 2",
@@ -30,5 +40,27 @@ const sponsorLogos = [
   {
     imageUrl: "/sponsors/s5.jpeg",
     altText: "Sponsor 5",
+  },
+  {
+    imageUrl: "/sponsors/s6.jpeg",
+    altText: "Sponsor 6",
+  },
+  {
+    imageUrl: "/sponsors/s7.jpeg",
+    altText: "Sponsor 7",
+  },
+]
+const MajorSponsorLogos = [
+  {
+    imageUrl: "/sponsors/s8.jpeg",
+    altText: "Oil-India",
+  },
+  {
+    imageUrl: "/sponsors/s1.jpeg",
+    altText: "BCPL",
+  },
+  {
+    imageUrl: "/sponsors/s9.jpeg",
+    altText: "Cognitive tech",
   },
 ]
