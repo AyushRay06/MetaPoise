@@ -8,7 +8,9 @@ export const Collaboration = () => {
   return (
     <section className="flex place-content-center gap-2  px-8 py-24">
       <div className="">
-        <FlipLink href="#">GDG.DU</FlipLink>
+        <FlipLink href="https://gdg.community.dev/gdg-on-campus-dibrugarh-university-dibrugarh-india/">
+          GDG.DU
+        </FlipLink>
 
         <FlipLink href="#">IEEE.DU</FlipLink>
 

@@ -18,7 +18,7 @@ export function MajorSponsors() {
       <MajorInfiniteMovingCards
         items={MajorSponsorLogos}
         direction="right"
-        speed="slow"
+        speed="normal"
       />
     </div>
   )
