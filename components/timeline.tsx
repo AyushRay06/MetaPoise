@@ -138,7 +138,7 @@ export function TimelineDemo() {
       ),
     },
     {
-      title: "Digital Conference",
+      title: "Digital Transformation Workshop",
       content: (
         <div>
           <p className=" dark:text-neutral-200 dark:lg:text-neutral-200 text-sm md:text-lg  pl-4 font-thin  lg:font-extrabold mb-4 lg:pl-0">
